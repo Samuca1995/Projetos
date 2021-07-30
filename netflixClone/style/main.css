@@ -1,0 +1,143 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --vermelho: #E50914;
+    --preto: #141414;
+
+}
+
+body {
+
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+header .container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 47px;
+
+}
+
+header nav a {
+
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+
+    color: #fff;
+
+}
+
+.filme-principal {
+
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/billions.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .container {
+
+    margin-left: 25px;
+    width: 50%;
+    
+}
+
+.titulo {
+
+    margin-top: 15%;
+    font-size: 36px;
+
+}
+
+.descricao {
+
+    margin-top: 15px;
+    margin-bottom: 55px;
+
+}
+
+.botoes .botao {
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 35px;
+    margin-right: 35px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 2s ease all;
+
+}
+
+.botoes .botao:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+i {
+
+    margin-right: 15px;
+    font-size: 15px;
+
+}
+
+.botoes a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.botoes a:hover {
+
+    color: black;
+   
+}
+
+.box-filme {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.carosel {
+
+    margin-top: 15px;
+
+}
